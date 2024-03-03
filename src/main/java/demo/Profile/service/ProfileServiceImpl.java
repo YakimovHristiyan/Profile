@@ -10,11 +10,9 @@ import demo.Profile.model.payload.request.ProfileEditRequest;
 import demo.Profile.model.payload.response.ProfileResponse;
 import demo.Profile.repository.ProfileRepository;
 import lombok.RequiredArgsConstructor;
-import lombok.extern.slf4j.Slf4j;
 import org.springframework.kafka.annotation.KafkaListener;
 import org.springframework.stereotype.Service;
 
-@Slf4j
 @Service
 @RequiredArgsConstructor
 public class ProfileServiceImpl implements ProfileService {
